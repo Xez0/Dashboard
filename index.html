@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pertemuan - Gabungan v3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <h3><i class="fas fa-graduation-cap"></i> Menu Pembelajaran</h3>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <a href="#" class="menu-item" data-page="dashboard"><i class="fas fa-chart-pie"></i> DASHBOARD</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per1.html"><i class="fas fa-book"></i> Pertemuan 1</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per2.html"><i class="fas fa-book"></i> Pertemuan 2</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per3.html"><i class="fas fa-book"></i> Pertemuan 3</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per4.html"><i class="fas fa-book"></i> Pertemuan 4</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per5.html"><i class="fas fa-book"></i> Pertemuan 5</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per6.html"><i class="fas fa-book"></i> Pertemuan 6</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per7.html"><i class="fas fa-book"></i> Pertemuan 7</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per8.html"><i class="fas fa-book"></i> Pertemuan 8</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per9.html"><i class="fas fa-book"></i> Pertemuan 9</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per10.html"><i class="fas fa-book"></i> Pertemuan 10</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per11.html"><i class="fas fa-book"></i> Pertemuan 11</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per12.html"><i class="fas fa-book"></i> Pertemuan 12</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per13.html"><i class="fas fa-book"></i> Pertemuan 13</a>
+        <a href="#" class="menu-item" data-page="pertemuan/per14.html"><i class="fas fa-book"></i> Pertemuan 14</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()"><i class="fas fa-bars"></i> Menu</button>
+        <div id="content-container">
+            <!-- Content will be loaded here dynamically -->
+            <div class="loading">
+                <i class="fas fa-spinner fa-spin"></i> Memuat konten...
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
